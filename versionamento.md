@@ -30,6 +30,11 @@
 | ----------------------------------------- | -------------------------------------- |
 | git commit --ammend -m "*novo comentário* | Altera o comentário do commit anterior |
 
+---
 
+## <u>Comandos para repositórios de terceiros</u>
 
-
+| Comando                        | Ação                                                                                                                 |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
+| git remote add upstream *main* | Adiciona/relaciona o repositório local com o repositório remoto de terceiros                                         |
+| git pull upstream *main*       | Baixa e mescla as alterações no repositório remoto de terceiros para o repositório local |
